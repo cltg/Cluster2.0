@@ -1,8 +1,10 @@
 # Cluster2.0
+
 --------------------------------------------------------------------
 > A Vue.js project
+--------------------------------------------------------------------
 
-Cluster2.0 is a social network built by and for women interested in Science, Tecnology, Engineering and Mathematics.
+Cluster is a social network built by and for women interested in Science, Tecnology, Engineering and Mathematics.
 
 ## Introduction
 
@@ -86,9 +88,9 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 Built with:
 
-* Javascript
-* HTML5
-* CSS3
+* JS
+* HTML
+* CSS
 * Node.js
 * Vue.js
 * Visual Code Studio
@@ -147,16 +149,10 @@ Built with:
 
 ## Tests
 
---------------------------------------------------------------------
-
 ## Build status
-
---------------------------------------------------------------------
 
 Under construction.
 
 ## Contribute
-
---------------------------------------------------------------------
 
 Please send a pull request if you would like to contribute.
