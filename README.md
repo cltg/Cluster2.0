@@ -122,7 +122,7 @@ Built with:
 │   └── *
 ├── dist
 │   ├── static
-│   │   └── * 
+│   │   └── *
 │   └── index.html
 ├── node_modules
 │   └── *
@@ -131,8 +131,8 @@ Built with:
 │   │   └── logo.jpg
 │   ├── components
 │   │   ├── Login.vue
-│   │   ├── 
-│   │   └── 
+│   │   ├── *
+│   │   └── *
 │   ├── router
 │   │   └── index.js
 │   ├── App.vue
