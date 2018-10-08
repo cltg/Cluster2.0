@@ -4,6 +4,6 @@
 
 <script>
 export default {
-  name: 'newsfeed'
-}
+  name: 'newsfeed',
+};
 </script>
