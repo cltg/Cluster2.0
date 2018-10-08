@@ -5,6 +5,8 @@ import BootstrapVue from 'bootstrap-vue';
 import firebase from 'firebase/app';
 import App from './App';
 import router from './router';
+// to use the store, import:
+import store from './store';
 
 
 Vue.use(BootstrapVue);
@@ -28,8 +30,8 @@ window.firebase = firebase;
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
-  router,
   components: { App },
+  router,
+  store,
   template: '<App/>',
-  data: { color: '#681113' },
 });

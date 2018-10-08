@@ -41,7 +41,15 @@ export default {
       // console.log('Oi, it is werkin');
       firebase.auth().signInWithPopup(new firebase.auth.GoogleAuthProvider())
         .then((res) => {
-          console.log(res.user);
+          // console.log(res.user);
+
+          // dispatch setUser action with store.action method( with $ we get access to Specific Vue properties)
+          // we must pass 2 arguments:1.name of action to mutate the state 2. the data we want to pass to that action
+          this.$store.dispatch('setUser', res.user);
+
+          // And we have to redirect users to home page'/', once logged in
+          // access router instance with $
+          this.$router.push('/');
         });
     },
   },
