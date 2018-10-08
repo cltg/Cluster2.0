@@ -4,11 +4,22 @@ import Vue from 'vue';
 import BootstrapVue from 'bootstrap-vue';
 import App from './App';
 import router from './router';
-
+import firebase from 'firebase';
 
 Vue.use(BootstrapVue);
 
 Vue.config.productionTip = false;
+
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyA9Cm2xIokiCetdOwNrieV1izuzynUTfi8",
+    authDomain: "cluster-2-0.firebaseapp.com",
+    databaseURL: "https://cluster-2-0.firebaseio.com",
+    projectId: "cluster-2-0",
+    storageBucket: "cluster-2-0.appspot.com",
+    messagingSenderId: "495133718792"
+  };
+  firebase.initializeApp(config);
 
 /* eslint-disable no-new */
 new Vue({
